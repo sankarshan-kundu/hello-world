@@ -1,1 +1,1 @@
-docker logs hw $*
+docker-compose logs $*

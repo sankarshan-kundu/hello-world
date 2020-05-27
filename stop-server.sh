@@ -1,1 +1,1 @@
-docker rm --force hw > /dev/null
+docker-compose down
