@@ -1,7 +1,10 @@
 version: "3"
 services:
     hello-world-server:
-        image: hello-world:1.0
+        image: hello-world:${TAG:-1.0}
+        build:
+            context: .
+            dockerfile: Dockerfile
         ports:
             - "8000:3000"
         environment:

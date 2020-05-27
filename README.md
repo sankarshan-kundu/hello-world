@@ -7,11 +7,11 @@ Hello world project with jode.js using docker.
 * Docker
 * Docker Compose
 
-### Commmands
+## Some useful Docker compose commands
 
-* Build and start server: `./build-start-server.sh` 
-* View Logs: `./server-logs.sh` 
-* Stop server: `./stop-server.sh` 
+* Build & start stack: `docker-compose up -d --build` 
+* View logs: `docker-compose logs -f` 
+* Stop stack: `docker-compose down` 
 
 ### View output in browser
 
