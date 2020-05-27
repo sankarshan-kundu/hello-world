@@ -1,0 +1,1 @@
+docker rm --force hw > /dev/null

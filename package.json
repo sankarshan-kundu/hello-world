@@ -4,7 +4,7 @@
   "description": "Hello world with node",
   "main": "app.js",
   "scripts": {
-    "start": "PORT=3000 node app"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
